@@ -10,6 +10,7 @@ TASK 2: Tickets
 
 
 Ticket 1 
+
 Hello,
 I understand you struggle and I am here to help you. When you defines grid height you cannot pass % with [height] property, in your case, Kendo has a solution, set
 <kendo-grid
@@ -39,6 +40,7 @@ Best of luck
 
 
 Ticket 2
+
 Hello,
 If your third party API returns you a bunch of unnecessary items, you can simply use high order function for this, like reduce for example:
 If your API returs you JSON like this 
@@ -111,6 +113,7 @@ Best wishes
 
 
 Ticket 3
+
 Hi
 100% stacked charts doesn't support vertical bars, we are sorry about that, but our team is working on it and very soon the documentation will be updated with more and detailed examples and we will make 100% stacked bars to support vertical ones. I recommend you to look Bar Charts/Column Charts https://demos.telerik.com/kendo-ui/bar-charts/column instead. We are here to help you, so don't hesitate to ask us if you have any questions.
 
