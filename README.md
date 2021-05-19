@@ -1,4 +1,10 @@
-TASK 1: Grid 
+Change 1
+
+Change 2
+
+Change 3
+
+TASK 1: Grid
 Completed requirements:
 1. Create a Kendo UI for Angular Grid consuming data from some remote API (for example
 https://jsonplaceholder.typicode.com/)
@@ -9,7 +15,7 @@ example)
 TASK 2: Tickets
 
 
-Ticket 1 
+Ticket 1
 
 Hello,
 I understand you struggle and I am here to help you. When you defines grid height you cannot pass % with [height] property, in your case, Kendo has a solution, set
@@ -18,7 +24,7 @@ I understand you struggle and I am here to help you. When you defines grid heigh
 >
 </kendo-grid>
 
-instead 
+instead
 
 <kendo-grid
 [height] = 'something'
@@ -43,7 +49,7 @@ Ticket 2
 
 Hello,
 If your third party API returns you a bunch of unnecessary items, you can simply use high order function for this, like reduce for example:
-If your API returs you JSON like this 
+If your API returs you JSON like this
 [
     {
     "id": 1,
@@ -77,7 +83,7 @@ real url address is https://jsonplaceholder.typicode.com/users
 
 and you want to filter only the names you can do this
 
-const serverData = [ {}, {}, {} ] <= this is the returned JSON from the server 
+const serverData = [ {}, {}, {} ] <= this is the returned JSON from the server
 
 const names: Array<{ text: string, value: number }> = serverData.reduce((acc, element) => {
         const user = {
@@ -88,7 +94,7 @@ const names: Array<{ text: string, value: number }> = serverData.reduce((acc, el
         return acc;
 }, []);
 
-this will make an array of objects like 
+this will make an array of objects like
 [
     {
        name: John,
